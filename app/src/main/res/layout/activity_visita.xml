@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unipac.com.br.visit.VisitaActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/visitanteTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dados do visitante" />
+
+    <EditText
+        android:id="@+id/dataEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite a data da visita:"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/salvarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar Visitante" />
+
+    <ListView
+        android:id="@+id/listaVisita"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>
